@@ -18,7 +18,7 @@ D('cum.fi', REG_NONE, NO_PURGE, DnsProvider(DNS_CLOUDFLARE),
 
     // Mail 
     TXT('@', 'v=spf1 a:hautaluoma.eu mx -all'),
-    MX('@', 1, 'hautaluoma.eu'),
+    MX('@', 1, 'hautaluoma.eu.'),
     TXT('_dmarc', 'v=DMARC1; p=none'),
     TXT('mail._domainkey', 'v=DKIM1; h=sha256; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDU3ErBVn+7+uUhzAn5Dl8tVCYG7DOTj7V2D+OWhhcVqr0LD8IeuKTTUmSlfWQ1yzHdhPE6YWgTwy0+lDzKAmcGrhf1e2J4BxesBOd5eBp1ilohZ4JT5/F3t+dJH61qd8pnom9YVMuAPxVCFQ8rQhL64o2+Zz3EzfQaCJxLW1HU6QIDAQAB')
 )
