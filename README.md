@@ -2,7 +2,7 @@
 This repo contains the domains website code and DNS.
 
 # Adding a subdomain
-Anyone is free to add subdomain, to add subdomain. Follow the instructions below.
+Anyone is free to add subdomain. Follow the instructions below.
 
 Modify the file under dns/dnsconfig.js and submit a pull request. I will approve PR's as they come.
 
