@@ -1,0 +1,20 @@
+name: DEPLOY
+on:
+  push:
+    branches:
+    - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: rsync deployments
+      uses: burnett01/rsync-deployments@5.2
+      with:
+        switches: -tuvr
+        path: /
+        remote_path: /var/www/my_webapp__5/www/
+        remote_host: mha.fi
+        remote_user: wwwup
+        remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
