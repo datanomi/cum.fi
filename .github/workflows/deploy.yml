@@ -16,6 +16,6 @@ jobs:
         path: /
         remote_path: /var/www/my_webapp__5/www/
         remote_host: mha.fi
-        remoete_port: ${{ secrets.SSH_PORT }}
+        remote_port: ${{ secrets.SSH_PORT }}
         remote_user: wwwup
         remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
