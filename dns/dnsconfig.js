@@ -10,6 +10,7 @@ var CF_PROXY_ON = { 'cloudflare_proxy': 'on' }; // Proxy enabled.
 D('cum.fi', REG_NONE, NO_PURGE, DnsProvider(DNS_CLOUDFLARE),
     A('@', '95.216.12.121', CF_PROXY_OFF),
     A('sprisa', '78.46.100.167', CF_PROXY_OFF),
+    A('api', '135.148.149.204', CF_PROXY_OFF),
     AAAA('@', '2a01:4f9:2a:c88::2', CF_PROXY_OFF),
     CNAME('www', '@'),
 
