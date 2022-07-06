@@ -18,7 +18,7 @@ D('cum.fi', REG_NONE, NO_PURGE, DnsProvider(DNS_CLOUDFLARE),
     CNAME('lukas', 'LukasDoesDev.gitlab.io.'),
     TXT('_gitlab-pages-verification-code.lukas', 'gitlab-pages-verification-code=c3c613a3943e0e68de586eca09a7e124'),
 
-    CNAME('rasmus', 'raippa08.github.io.', CF_PROXY_OFF'),
+    CNAME('rasmus', 'raippa08.github.io.', CF_PROXY_OFF),
   
     // Example CNAME subdomain
     CNAME('examplesubdomain', 'datanomi.github.io.', CF_PROXY_OFF),
