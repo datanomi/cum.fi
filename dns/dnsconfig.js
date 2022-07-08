@@ -18,15 +18,14 @@ D('cum.fi', REG_NONE, NO_PURGE, DnsProvider(DNS_CLOUDFLARE),
     CNAME('lukas', 'LukasDoesDev.gitlab.io.'),
     TXT('_gitlab-pages-verification-code.lukas', 'gitlab-pages-verification-code=c3c613a3943e0e68de586eca09a7e124'),
 
-<<<<<<< HEAD
     // BloodBugs
     CNAME('bloodbugs', 'bloodbugs.github.io.', CF_PROXY_OFF),
+    CNAME('jgaxr', 'bloodbugs.github.io.', CF_PROXY_OFF),
     TXT('_github-pages-challenge-BloodBugs', '6e52b981e85fd486fa328ea0038daf')
-
-=======
-    CNAME('rasmus', 'raippa08.github.io.', CF_PROXY_OFF),
   
->>>>>>> b486fef70cbddfcfb1f7e59bd5117cad2f1b99b4
+    // Raippa08
+    CNAME('rasmus', 'raippa08.github.io.', CF_PROXY_OFF),
+    
     // Example CNAME subdomain
     CNAME('examplesubdomain', 'datanomi.github.io.', CF_PROXY_OFF),
 
