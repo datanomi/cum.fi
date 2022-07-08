@@ -21,7 +21,7 @@ D('cum.fi', REG_NONE, NO_PURGE, DnsProvider(DNS_CLOUDFLARE),
     // BloodBugs
     CNAME('bloodbugs', 'bloodbugs.github.io.', CF_PROXY_OFF),
     CNAME('jgaxr', 'bloodbugs.github.io.', CF_PROXY_OFF),
-    TXT('_github-pages-challenge-BloodBugs', '6e52b981e85fd486fa328ea0038daf')
+    TXT('_github-pages-challenge-BloodBugs', '6e52b981e85fd486fa328ea0038daf'),
   
     // Raippa08
     CNAME('rasmus', 'raippa08.github.io.', CF_PROXY_OFF),
