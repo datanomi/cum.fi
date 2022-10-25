@@ -26,6 +26,10 @@ D('cum.fi', REG_NONE, NO_PURGE, DnsProvider(DNS_CLOUDFLARE),
     // Raippa08
     CNAME('rasmus', 'raippa08.github.io.', CF_PROXY_OFF),
     
+    // Lap
+    // I am adding a cname just because i love the domain
+    CNAME("lap", "lapcodes.dev", CF_PROXY_OFF)
+  
     // Example CNAME subdomain
     CNAME('examplesubdomain', 'datanomi.github.io.', CF_PROXY_OFF),
 
