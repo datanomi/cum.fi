@@ -11,7 +11,7 @@ D('cum.fi', REG_NONE, NO_PURGE, DnsProvider(DNS_CLOUDFLARE),
     A('@', '51.158.61.247', CF_PROXY_ON),
     A('sprisa', '78.46.100.167', CF_PROXY_OFF),
     A('api', '135.148.149.204', CF_PROXY_OFF),
-    CNAME('www', '@'),
+    AAAA('www', '100::', CF_PROXY_ON),
 
     // Lukas
     CNAME('lukas', 'LukasDoesDev.gitlab.io.'),
