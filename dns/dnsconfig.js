@@ -24,9 +24,9 @@ D('cum.fi', REG_NONE, NO_PURGE, DnsProvider(DNS_CLOUDFLARE),
   
     // Raippa08
     CNAME('rasmus', 'raippa08.github.io.', CF_PROXY_OFF),
-  
+
     // unnerving duck
-    CNAME('unnervingduck', 'unnervingduck.github.io', CF_PROXY_ON),
+    CNAME('unnervingduck', 'unnervingduck.github.io.', CF_PROXY_ON),
     
     // Example CNAME subdomain
     CNAME('examplesubdomain', 'datanomi.github.io.', CF_PROXY_OFF),

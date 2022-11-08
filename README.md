@@ -16,7 +16,7 @@ Examples:
 
 CNAME record with Cloudflare's proxy off
 ```js
-CNAME('examplesubdomain', 'example.com', CF_PROXY_OFF),
+CNAME('examplesubdomain', 'example.com.', CF_PROXY_OFF),
 ```
 A record with Cloudflare's proxy on
 ```js
