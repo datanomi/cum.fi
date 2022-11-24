@@ -13,6 +13,16 @@ D('cum.fi', REG_NONE, NO_PURGE, DnsProvider(DNS_CLOUDFLARE),
     A('api', '135.148.149.204', CF_PROXY_OFF),
     AAAA('www', '100::', CF_PROXY_ON),
 
+    // BastelPichi
+    NS('pichi', 'freedns1.registrar-servers.com', CF_PROXY_OFF),
+    NS('pichi', 'freedns2.registrar-servers.com', CF_PROXY_OFF),
+    NS('ilike', 'freedns1.registrar-servers.com', CF_PROXY_OFF),
+    NS('ilike', 'freedns2.registrar-servers.com', CF_PROXY_OFF),
+    NS('bastelpichi', 'freedns1.registrar-servers.com', CF_PROXY_OFF),
+    NS('bastelpichi', 'freedns2.registrar-servers.com', CF_PROXY_OFF),
+  
+  
+  
     // Lukas
     CNAME('lukas', 'LukasDoesDev.gitlab.io.'),
     TXT('_gitlab-pages-verification-code.lukas', 'gitlab-pages-verification-code=c3c613a3943e0e68de586eca09a7e124'),
