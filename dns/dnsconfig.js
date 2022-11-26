@@ -14,12 +14,12 @@ D('cum.fi', REG_NONE, NO_PURGE, DnsProvider(DNS_CLOUDFLARE),
     AAAA('www', '100::', CF_PROXY_ON),
 
     // BastelPichi
-    NS('pichi', 'ns1.he.net', CF_PROXY_OFF),
-    NS('pichi', 'ns2.he.net', CF_PROXY_OFF),
-    NS('ilike', 'ns1.he.net', CF_PROXY_OFF),
-    NS('ilike', 'ns2.he.net', CF_PROXY_OFF),
-    NS('bastelpichi', 'ns1.he.net', CF_PROXY_OFF),
-    NS('bastelpichi', 'ns2.he.net', CF_PROXY_OFF),
+    NS('pichi', 'ns1.he.net.', CF_PROXY_OFF),
+    NS('pichi', 'ns2.he.net.', CF_PROXY_OFF),
+    NS('ilike', 'ns1.he.net.', CF_PROXY_OFF),
+    NS('ilike', 'ns2.he.net.', CF_PROXY_OFF),
+    NS('bastelpichi', 'ns1.he.net.', CF_PROXY_OFF),
+    NS('bastelpichi', 'ns2.he.net.', CF_PROXY_OFF),
   
     // Lukas
     CNAME('lukas', 'LukasDoesDev.gitlab.io.'),
