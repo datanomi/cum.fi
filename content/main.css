@@ -1,37 +1,17 @@
 @font-face {
     font-display: swap;
-    font-family: 'Roboto Mono';
+    font-family: 'Telia Sans';
     font-style: normal;
-    src: url("roboto-mono.woff2")
+    src: url("TeliaSans-Regular.woff2") format("woff2");
 }
 
 body {
     font-size: 15px;
-    font-family: Roboto Mono;
+    font-family: Telia Sans;
     background: #181818;
     line-height: 20px;
     letter-spacing: normal;
     color: #ffffffe1
-}
-
-.snow {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    pointer-events: none;
-    z-index: 1000;
-}
-
-#snow {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    pointer-events: none;
-    z-index: 1000;
 }
 
 .main {
@@ -42,7 +22,6 @@ body {
 
 .main h1 {
     color: #fff font-size;
-    18px;
     line-height: 36px;
     width: 80%;
 }
@@ -108,10 +87,60 @@ body {
     margin-left: -2em
 }
 
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.topnav a {
+    float: left;
+    color: #00da24c4;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.topnav a:hover {
+    background-color: #00ff15;
+    transition: ease 0.3s;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #00da24c4;
+    color: white;
+}
+
+.topnav a.fi {
+    float: right;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    background-color: #181818;
+    overflow: hidden;
+}
+
 @media screen and (max-width: 800px) {
     .main {
         width: 85%;
         min-width: 0;
+    }
+    .footer {
+        position: auto;
+        height: 3em;
+        background-color: #181818a2;
+        left: 0;
+        font-size: small;
     }
 }
 

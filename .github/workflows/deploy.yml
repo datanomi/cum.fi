@@ -14,7 +14,7 @@ jobs:
       with:
         switches: -tuvr
         path: /
-        remote_path: /var/www/my_webapp__5/www/
+        remote_path: /var/www/cum.fi
         remote_host: mha.fi
         remote_port: ${{ secrets.SSH_PORT }}
         remote_user: wwwup
