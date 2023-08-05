@@ -36,7 +36,9 @@ D('cum.fi', REG_NONE, NO_PURGE, DnsProvider(DNS_CLOUDFLARE),
     // unnerving duck
     CNAME('unnervingduck', 'unnervingduck.github.io.', CF_PROXY_ON),
     TXT('_github-pages-challenge-unnervingduck.unnervingduck', 'c227f31f380988192c237d870e4844'),
-    
+
+    CNAME('i', 'perny.online.'),
+  
     // Example CNAME subdomain
     CNAME('examplesubdomain', 'datanomi.github.io.', CF_PROXY_OFF),
 
