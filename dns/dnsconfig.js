@@ -13,6 +13,12 @@ D('cum.fi', REG_NONE, NO_PURGE, DnsProvider(DNS_CLOUDFLARE),
     A('api', '135.148.149.204', CF_PROXY_OFF),
     AAAA('www', '100::', CF_PROXY_ON),
 
+    // Ismail1234j
+    NS('ismail', 'ns1.he.net.'),
+    NS('ismail', 'ns2.he.net.'),
+    NS('ijvm', 'ns1.he.net.'),
+    NS('ijvm', 'ns2.he.net.'),
+  
     // BastelPichi
     NS('pichi', 'ns1.he.net.'),
     NS('pichi', 'ns2.he.net.'),
