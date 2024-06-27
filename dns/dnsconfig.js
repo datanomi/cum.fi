@@ -13,7 +13,7 @@ D('cum.fi', REG_NONE, NO_PURGE, DnsProvider(DNS_CLOUDFLARE),
     A('api', '135.148.149.204', CF_PROXY_OFF),
     AAAA('www', '100::', CF_PROXY_ON),
 
-    // Ismail1234j
+    // Ismail1234j 
     NS('ijvm', 'ns0.1984.is.'),
     NS('ijvm', 'ns1.1984.is.'),
     NS('ijvm', 'ns2.1984.is.'),
