@@ -14,8 +14,8 @@ jobs:
       with:
         switches: -tuvr
         path: /
-        remote_path: /var/www/cum.fi
-        remote_host: mha.fi
+        remote_path: /home/cum/htdocs/cum.fi/
+        remote_host: vps-fi-hel1.domsku.com
         remote_port: ${{ secrets.SSH_PORT }}
-        remote_user: wwwup
+        remote_user: cum
         remote_key: ${{ secrets.SSH_PRIVATE_KEY }}

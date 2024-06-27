@@ -8,16 +8,17 @@ var CF_PROXY_ON = { 'cloudflare_proxy': 'on' }; // Proxy enabled.
 
 
 D('cum.fi', REG_NONE, NO_PURGE, DnsProvider(DNS_CLOUDFLARE),
-    A('@', '83.171.249.81', CF_PROXY_ON),
+    A('@', '65.21.63.46', CF_PROXY_ON),
     A('sprisa', '78.46.100.167', CF_PROXY_OFF),
     A('api', '135.148.149.204', CF_PROXY_OFF),
     AAAA('www', '100::', CF_PROXY_ON),
 
     // Ismail1234j
-    NS('ismail', 'ns1.he.net.'),
-    NS('ismail', 'ns2.he.net.'),
-    NS('ijvm', 'ns1.he.net.'),
-    NS('ijvm', 'ns2.he.net.'),
+    NS('ijvm', 'ns0.1984.is.'),
+    NS('ijvm', 'ns1.1984.is.'),
+    NS('ijvm', 'ns2.1984.is.'),
+    NS('ijvm', 'ns1.1984hosting.com.'),
+    NS('ijvm', 'ns2.1984hosting.com.'),
   
     // BastelPichi
     NS('pichi', 'ns1.he.net.'),
